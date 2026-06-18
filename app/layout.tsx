@@ -27,14 +27,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable}`}
+      className={`${geistSans.variable} ${geistMono.variable} bg-background`}
     >
       <head>
         {/* Load public/style.css */}
         <link rel="stylesheet" href="/style.css" />
       </head>
 
-      <body className="antialiased">
+      <body className="antialiased bg-background text-foreground">
         {children}
 
         {/* Load public/script.js safely */}
