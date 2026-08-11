@@ -1,6 +1,8 @@
 [README.md](https://github.com/user-attachments/files/30923100/README.md)
 # Project Tracker Expense (Student Expense Tracker)
 
+Live Demo: https://project-tracker-expense-ooym.vercel.app/
+
 A full-stack personal finance app for tracking income, expenses, and budgets. Built as a single **Next.js** application — the same codebase serves the React frontend and the JSON backend (via Next.js API routes), backed by **MongoDB**.
 
 ## Project Overview
